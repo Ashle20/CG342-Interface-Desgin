@@ -1,5 +1,5 @@
 body {
-background-color:beige
+background-color:beige;
 }
 
 h1
@@ -17,4 +17,13 @@ p
     color:black;
     letter-spacing: 1.5px;
     line-height:20px;
+}
+.button-links {
+    border-style: solid;
+    border-color:blueviolet;
+    background-color:beige
+    border-width 2px;
+    text-decoration: none;
+    color:black;
+
 }
