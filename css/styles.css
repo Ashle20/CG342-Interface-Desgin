@@ -5,6 +5,7 @@ background-color:beige;
 h1
 {
 font-family: 'Bree Serif', serif;
+font-family: 'Shantell Sans', cursive;
 color:turquoise;
 letter-spacing: 1.5px;
 font-size: 40px;
@@ -21,7 +22,7 @@ p
 .button-link {
     border-style: solid;
     border-color:blueviolet;
-    background-color:beige;
+    background-color:aquamarine;
     border-width: 2px;
     text-decoration: none;
     color:black;
