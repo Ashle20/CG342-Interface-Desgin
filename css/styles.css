@@ -5,7 +5,7 @@ background-color:beige;
 h1
 {
 font-family: 'Bree Serif', serif;
-font-family: 'Shantell Sans', cursive;
+
 color:turquoise;
 letter-spacing: 1.5px;
 font-size: 40px;
@@ -13,7 +13,7 @@ font-size: 40px;
 
 p
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
     font-size: 16px;
     color:black;
     letter-spacing: 1.5px;
