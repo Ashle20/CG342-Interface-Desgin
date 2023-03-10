@@ -78,7 +78,7 @@ margin-top: 20px;
     padding-top: 30px;
     background-color:blueviolet;
     background-image: url("https://storiesfornerds.com/wp-content/uploads/2019/01/Stories-for-Nerds-Mob-Psycho-100-Season-2.jpg");
-    background-size:cover;
+    background-size: cover;
     background-attachment:fixed;
 }
 .main-content{
@@ -93,6 +93,7 @@ html{
 
 body{
     background-color:azure;
+    margin:0;
 }
 
 nav{
@@ -110,4 +111,25 @@ footer{
     text-align: center;
     background-color:blueviolet;
     padding: 10px 0;
+}
+
+/*mobile styles*/
+
+@media only screen and (max-wdith:600px){
+    /*mobile stylesgo here*/
+    body{
+        background-color:rgb(74, 56, 97);
+        margin:0;
+    }
+    h1
+{
+font-family: 'Bree Serif', serif;
+color:rgb(243, 219, 248);
+letter-spacing: 1.5px;
+font-size: 40px;
+margin: 0  20px;
+}
+p
+{
+    color:mistyrose;
 }
