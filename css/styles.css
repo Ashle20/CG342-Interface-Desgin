@@ -1,7 +1,8 @@
-/*body {
-background-color:beige;
+body{
+    background-color:azure;
+    margin:0;
+    padding:0px;
 }
-*/
 h1
 {
 font-family: 'Bree Serif', serif;
@@ -41,7 +42,7 @@ p
     text-align: center;
     padding: 0px;
     margin: 0 auto;
-    width: 800px;
+    width: 500px;
 }
 
 .list-nav li{
@@ -89,12 +90,6 @@ margin-top: 20px;
 
 html{
     scroll-behavior: smooth;
-}
-
-body{
-    background-color:azure;
-    margin:0;
-    padding:0px;
 }
 
 nav{
