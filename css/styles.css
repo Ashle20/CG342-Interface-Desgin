@@ -27,6 +27,48 @@ p
     border-width: 2px;
     text-decoration: none;
     color:black;
+    padding: 4px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.list-nav{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.list-nav li{
+    display: inline;
+}
+
+.list-nav li a{
+    color:azure;
+    text-decoration: none;
+    margin:30px;
+    padding-right: 10px;
+    padding-left:10px;
+}
+
+.list-button{
+    border-style: solid;
+    border-color:azure;
+background-color:blueviolet;
+border-width: .5px;
+text-decoration: none;
+color:azure;
+padding: 4px;
+border-radius: 20px;
+display: inline;
+width: 150px;
+text-align: center;
+margin-top: 20px;
 
 }
 
@@ -35,12 +77,35 @@ p
     text-align: center;
     padding-top: 30px;
     background-color:blueviolet;
+
+    background-size:cover;
+    background-attachment:fixed;
 }
 .main-content{
    max-width: 800px;
     margin: 0 auto;
     padding: 0 10px;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:azure;
+}
+
+nav{
+    background-color:blueviolet;
+    background-image: url("https://storiesfornerds.com/wp-content/uploads/2019/01/Stories-for-Nerds-Mob-Psycho-100-Season-2.jpg");
+    padding: 20px;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+}
+
+
+
 footer{
     height: 70px;
     text-align: center;
